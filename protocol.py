@@ -148,6 +148,7 @@ from base64 import b32decode, b32encode
 from binascii import hexlify, unhexlify
 from collections import deque
 from io import SEEK_CUR, BytesIO
+import hashlib
 from operator import itemgetter
 
 # MAGIC_NUMBER = "\xF9\xBE\xB4\xD9"
